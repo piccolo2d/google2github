@@ -1,3 +1,4 @@
+If nobody steps up and helps with the migration:
 
 On August 24th I (https://github.com/mro) will
 
