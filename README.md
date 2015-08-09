@@ -1,5 +1,5 @@
 
-On August 24th I (@mro) will
+On August 24th I (https://github.com/mro) will
 
 - make http://piccolo2d.googlecode.com/ show a prominent link to http://piccolo2d.mro.name/community.html
 - transfer (**without any further tweaking**)
