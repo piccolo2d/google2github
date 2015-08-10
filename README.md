@@ -24,5 +24,5 @@ On August 17th I (https://github.com/mro) will
             git branch -r -d $BRANCH
       done
     $ for b in $(git branch -r) ; do git checkout "$b" ; git checkout -b "$b" ; done 
-    $ git remote add github git@github.com:mro/$repo.git
+    $ git remote add github git@github.com:piccolo2d/$repo.git
     $ git push --mirror --force github
