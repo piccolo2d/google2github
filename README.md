@@ -8,9 +8,9 @@ On August 17th I (https://github.com/mro) will
 
 ## piccolo2d.java migration
 
-    $ git svn clone http://piccolo2d.googlecode.com/svn/piccolo2d.java/ --no-metadata --stdlayout --authors-file=$HOME/Downloads/p2d.authors.txt piccolo2d.java
-    $ cd piccolo2d.java/
-    $ git remote add github git@github.com:mro/piccolo2d.java.git
+    $ repo=piccolo2d.java
+    $ git svn clone http://piccolo2d.googlecode.com/svn/$repo/ --no-metadata --stdlayout --authors-file=$HOME/Downloads/p2d.authors.txt $repo
+    $ cd $repo/
     # http://stackoverflow.com/a/14800155
     $ git for-each-ref --format="%(refname:short) %(objectname)" refs/remotes/tags \
     | while read BRANCH REF
@@ -23,5 +23,6 @@ On August 17th I (https://github.com/mro) will
             git tag -a -m "$BODY" $TAG_NAME $REF^  &&\
             git branch -r -d $BRANCH
       done
+    $ git remote add github git@github.com:mro/$repo.git
     $ for b in $(git branch -r) ; do git checkout "$b" ; git checkout -b "$b" ; done 
     $ git push --mirror --force github
