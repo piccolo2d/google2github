@@ -23,6 +23,6 @@ On August 17th I (https://github.com/mro) will
             git tag -a -m "$BODY" $TAG_NAME $REF^  &&\
             git branch -r -d $BRANCH
       done
-    $ git remote add github git@github.com:mro/$repo.git
     $ for b in $(git branch -r) ; do git checkout "$b" ; git checkout -b "$b" ; done 
+    $ git remote add github git@github.com:mro/$repo.git
     $ git push --mirror --force github
