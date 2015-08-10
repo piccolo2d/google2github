@@ -8,7 +8,7 @@ On August 17th I (https://github.com/mro) will
 
 ## piccolo2d.java migration
 
-    $ repo=piccolo2d.java
+    $ repo=piccolo2d.java,piccolo2d.net,pocketpiccolo2d.net,site
     $ git svn clone http://piccolo2d.googlecode.com/svn/$repo/ --no-metadata --stdlayout --authors-file=$HOME/Downloads/p2d.authors.txt $repo
     $ cd $repo/
     # http://stackoverflow.com/a/14800155
