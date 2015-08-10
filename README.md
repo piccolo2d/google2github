@@ -10,4 +10,4 @@ On August 24th I (https://github.com/mro) will
   - https://github.com/mro/pocketpiccolo2d.net to https://github.com/piccolo2d/pocketpiccolo2d.net
 - edit http://piccolo2d.mro.name/community.html to match the new situation
 - make piccolo2d.mro.name a https://help.github.com/articles/about-custom-domains-for-github-pages-sites/
-- Redirect to http://piccolo2d.mro.name/community.html https://code.google.com/p/support-tools/wiki/MigratingToGitHub#URL_Redirection
+- Redirect to http://piccolo2d.mro.name/community.html via https://code.google.com/p/piccolo2d/adminAdvanced (found at https://code.google.com/p/support-tools/wiki/MigratingToGitHub#URL_Redirection)
