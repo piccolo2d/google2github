@@ -8,6 +8,6 @@ On August 24th I (https://github.com/mro) will
   - https://github.com/mro/piccolo2d.net to https://github.com/piccolo2d/piccolo2d.net
   - https://github.com/mro/pocketpiccolo2d.net to https://github.com/piccolo2d/pocketpiccolo2d.net
   - keep https://github.com/piccolo2d/piccolo2d.github.io
-- make piccolo2d.mro.name a CNAME of http://piccolo2d.github.io (see https://help.github.com/articles/about-custom-domains-for-github-pages-sites/)
+- make http://piccolo2d.mro.name a CNAME of http://piccolo2d.github.io (see https://help.github.com/articles/about-custom-domains-for-github-pages-sites/)
 - edit http://piccolo2d.mro.name/community.html to match the new situation
 - Redirect to http://piccolo2d.mro.name/community.html via https://code.google.com/p/piccolo2d/adminAdvanced (found at https://code.google.com/p/support-tools/wiki/MigratingToGitHub#URL_Redirection)
