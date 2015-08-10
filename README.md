@@ -6,7 +6,7 @@ On August 17th I (https://github.com/mro) will
 - edit http://piccolo2d.mro.name/community.html to match the new situation
 - Redirect to http://piccolo2d.mro.name/community.html via https://code.google.com/p/piccolo2d/adminAdvanced (found at https://code.google.com/p/support-tools/wiki/MigratingToGitHub#URL_Redirection)
 
-## piccolo2d.java migration
+## Code Migration
 
     $ repo=piccolo2d.java,piccolo2d.net,pocketpiccolo2d.net,site
     $ git svn clone http://piccolo2d.googlecode.com/svn/$repo/ --no-metadata --stdlayout --authors-file=$HOME/Downloads/p2d.authors.txt $repo
