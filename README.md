@@ -26,3 +26,17 @@ On August 17th I (https://github.com/mro) will
     $ for b in $(git branch -r) ; do git checkout "$b" ; git checkout -b "$b" ; done 
     $ git remote add github git@github.com:piccolo2d/$repo.git
     $ git push --mirror --force github
+
+## clean names
+
+    git filter-branch -f --commit-filter '
+      if [ "$GIT_AUTHOR_EMAIL" = "github@mro.name" ];
+      then
+        GIT_AUTHOR_NAME="Marcus Rohrmoser";
+        GIT_AUTHOR_EMAIL="mrohrmoser@acm.org";
+        GIT_COMMITTER_NAME="$GIT_AUTHOR_NAME";
+        GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL";
+        git commit-tree "$@";
+      else
+        git commit-tree "$@";
+      fi' HEAD
