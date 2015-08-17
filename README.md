@@ -1,3 +1,5 @@
+[Google Code shuts down](https://code.google.com/p/support/wiki/ReadOnlyTransition).
+
 If nobody steps up and raises objections with the migration results:
 
 On August 17th I (https://github.com/mro) will
